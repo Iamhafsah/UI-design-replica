@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+ background-color: #D1E2FF;
+ font-family: Arial, Helvetica, sans-serif;
+ width: 100%;
+ height: 100%;
+ overflow-y: scroll;
+}
+
+.tree, .sign{
+    width: 6rem;
+    margin: 20px;
+    
+}
+.phone{
+    width: 9rem;
+    margin: 20px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px; 
+}
+.first-container, .second-container,.third-container{
+    background-color: #fff;
+    width:280px;
+    height: 560px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 10px 0px rgb(149, 185, 219) ;
+}
+.backcontainer{
+    background-color:  #d1e2ff45;
+    border-radius: 0 0 0 50% ;
+}
+.img-container{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color:  #d1e2ff45;
+    padding: 50px;
+    border-radius: 0 0 30% 40%;
+    color: rgb(70, 70, 187);         
+}
+article{
+    padding: 30px;
+    text-align: center;
+    font-size: .8em;
+    line-height: 1.5em;
+}
+.slider{
+margin: 20px 30px 40px 30px;
+padding: 10px;
+text-align: center;
+}
+.slide{
+    display: inline-block;
+    background-color:   #8a8e9645;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.slide1{
+    display: inline-block;
+    background-color:rgb(70, 70, 187);;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+}
+.button-section{
+    margin: -50px 10px 10px 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skip{
+    color: rgb(124, 121, 121);
+    background-color:   #8a8e9645;
+    width: 5rem;
+    padding: 10px;
+    border-radius: 25px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+}
+.Next{
+    color: #fff;
+    background-color:rgb(90, 90, 231);
+    width: 5rem;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: medium;
+}
+
+@media  screen and (min-width: 600px){
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1 1 0;
+    flex-wrap: wrap;
+}
+}
