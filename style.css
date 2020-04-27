@@ -22,9 +22,10 @@ body{
 }
 .container{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     padding: 50px; 
 }
 .first-container, .second-container,.third-container{
@@ -98,14 +99,4 @@ text-align: center;
     border: none;
     font-weight: bold;
     font-size: medium;
-}
-
-@media  screen and (min-width: 600px){
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex: 1 1 0;
-    flex-wrap: wrap;
-}
 }
