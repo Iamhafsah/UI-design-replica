@@ -8,7 +8,7 @@ body{
     padding: 0;
     background-color: var(--bg-color);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 5em;
+    margin: 5em auto;
 }
 img{
     width: 2rem;
