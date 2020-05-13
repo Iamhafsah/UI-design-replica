@@ -1,0 +1,374 @@
+:root{
+    --bg-color: rgb(248, 246, 246);
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+img{
+    width: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.first-page, .second-page{
+width: 15rem;
+height: 550px;
+background-color: white;
+margin: 10px;
+padding: 20px;
+border-radius: 2em;
+box-shadow: 0 2px 7px 0 rgb(211, 210, 210);
+}
+.boy{
+    width: 13em;
+    padding: 5px;
+    margin-top: 1.3em;
+    margin-left: 1em;
+}
+.love-text{
+    font-size: 2em;
+    font-weight: 750;
+    margin: 33px auto 33px 10px;
+    line-height: 1em;
+}
+.from, .to{
+    border: none ;
+    box-shadow: 0 2px 7px 0 rgb(231, 230, 230);
+    border-radius: .9em;
+    margin: 10px;
+    padding: .1em;
+}
+.from-plane, .to-plane{
+    display: flex;
+}
+.from-plane img, .to-plane img{
+    width: .9em;
+    height: .9em;
+    margin-top: 10px;
+    padding: 0 .5em;
+}
+.from-plane p, .to-plane p{
+    font-size: .7em;
+    margin-top: 7px;
+    color: rgb(121, 118, 118);
+}
+.dhaka, .changi{
+font-size: 1em;
+line-height: .8em;
+font-weight: bold;
+margin-top: -2px;
+margin-left: .5em;
+}
+.go{
+    background-color: black;
+    border-radius: 50%;
+    width: 4.5em;
+    height: 4.5em;
+    text-align: center;
+    margin: 1.3em auto;
+    line-height: .1em;
+    transition: width 1s, height 1s;
+}
+.go p{
+    color: white;
+    font-size: .7em;
+}
+
+/* second page */
+
+.top-icons{
+    display: flex;
+    justify-content: space-between;
+}
+.top-icons p{
+    font-size: .7em;
+    font-weight: bold;
+    margin-top:.1em;
+}
+.connectivity img{
+    width: .8em;
+}
+.dhk-sin img{
+width: 1.1em;
+margin-bottom: -0.5em;
+}
+.sin img{
+    margin-left:3.5em ;
+}
+.dhk img{
+    margin-left: 1em;
+}
+.dhk-sin{
+    display: flex;
+    justify-content: space-between;
+    line-height: .1em;
+    margin-top: 3em;
+}
+.dhk-sin p{
+font-size: .6em;
+color: grey;
+}
+.dhk-sin h2{
+    font-weight: 600;
+}
+.dhk h2{
+    position: relative;
+    left: .6em;
+}
+.dhk p{
+    margin-left: 1.7em;
+}
+.sin h2{
+    margin-left: 1.5em;
+}
+.bridge-line{
+    height: 8em;
+    width: 16em;
+    border-top-left-radius: 13em;
+    border-top-right-radius: 13em;
+    margin: -5em auto 7em -.4em;
+    border-left: 3px dashed white;
+    border-right: 3px dashed white;
+    border-top: 2px dashed black
+}
+.flight-details{
+    margin-top: -8.5em;
+    margin-right: .4em;
+    margin-left: .4em;
+    padding-right: 1em;
+    border: none;
+    box-shadow: 0px 4px 7px 2px rgb(231, 230, 230);
+    border-radius: 1em ;
+    height: 19em;
+    width: 13.5em;
+}
+.flight-details h2{
+    position: relative;
+    left: .4em;
+    top: .6em;
+    font-weight: 640;
+}
+.flight-details img{
+    width: 1em;
+    height: 1em;
+    margin: .3em;
+}
+.flight-details p {
+    font-weight: bold;
+    font-size: .8em;
+}
+.passenger img{
+    width: .8em;
+    height: .8em;
+}
+.roundtrip img{
+    width: 1em;
+    height: 1em;
+    margin-left: .26em;
+}
+.roundtrip{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    background-color:rgb(247, 243, 243);
+    border-radius: 0 1em 1em 0;
+
+}
+.roundtrip p{
+    font-weight: bold;
+    position: relative;
+    margin-left: .3em;
+}
+.toggle{
+    background-color: black;
+    height: 1.7em;
+    width: 2.3em;
+    border-radius: 1em 1em;
+    position: relative;
+    right: -6.6em;
+}
+.innertoggle{
+    background-color:white;
+    height: 1.2em;
+    width: 1.2em;
+    border-radius: 50%;
+    position: relative;
+    right: -5em;
+    z-index: 3;
+}
+.first-circle, .second-circle, .third-circle{
+    background-color:rgb(231, 230, 230);
+    border-radius: 50%;
+    width: .5em;
+    height: .5em;
+}
+#departure, #return, #class, #passenger{
+    font-weight: normal;
+    font-size: .6em;
+    color: grey;
+}
+.departure{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: .3em auto;
+}
+.first-circle, .second-circle{
+    position: relative;
+    right: -3.3em;
+}
+.return, .business, .passenger{
+    display: flex;
+}
+.return p, .business p, .passenger p, .departure p{
+    margin-left: .3em;
+}
+.dep{
+    position: relative;
+    top: -1em;
+    left: .8em;
+    border-left: 2px dashed black;
+    height: 2em;
+}
+#departure{
+    position: relative;
+    top: -.4em;
+    left: 1.5em;
+}
+.return{
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top:-1.5em ;
+}
+#return{
+position: relative;
+top: -4.6em;
+left: 3em;
+}
+.business{
+justify-content: flex-start;
+align-items: center;
+position: relative;
+top: -3.2em;
+}
+.third-circle{
+    position: relative;
+    right: -9.4em;
+    height: .4em;
+    width: .4em;
+}
+#class{
+    position: relative;
+    top: -7.5em;
+    left: 3em;
+}
+.passenger{
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    top: -5em;
+}
+#passenger{
+    position: relative;
+    top: -10.5em;
+    left: 3em;
+}
+.plus-minus{
+    background-color:rgb(247, 243, 243);
+    position: relative;
+    right: -4.4em;
+    border: none;
+    border-radius: 1em 1em;
+    width: 5em;
+    height: 2.3em;
+}
+.plus-minus img{
+    width: 1.3em;
+    height: 1.6em;
+}
+.bottom-arrowbox {
+    background-color: white;
+    border-top-right-radius: 2.5em;
+    border-bottom-right-radius: 2.5em;
+    height:2.6em;
+    width: 1.7em;
+    margin-left: -1.19em;
+    position: relative;
+    bottom: -1.2em;
+    box-shadow: 0px 4px 8px 0px rgb(204, 202, 202);
+}
+.small-arrows{
+margin-top: -3.2em;
+margin-left: -.7em;
+}
+.next{
+    background-color: black;
+    border-radius: 50%;
+    width: 4.5em;
+    height: 4.5em;
+    text-align: center;
+    margin: 2em auto;
+    line-height: .1em;
+    margin-top: -4em;
+    transition: width 1s, height 1s;
+}
+.next p{
+    color: white;
+    font-size: .7em;
+}
+/* making the arrows */
+.arrow{
+    border: solid grey;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 2em;
+}
+.arrow2{
+    border: solid white;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.arrow3{
+    border: solid black;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-top: 2em;
+}
+.right{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+/* creating hover effects */
+.flight-details:hover{
+    cursor: pointer;
+}
+.go:hover{
+    cursor: pointer;
+    width: 4.7em;
+    height: 4.7em; 
+}
+.next:hover{
+    cursor: pointer;
+    width: 4.7em;
+    height: 4.7em;
+}
+
+
+
