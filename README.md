@@ -1,7 +1,9 @@
-# UI-design-replica
+# UI-designs
 
-This is a replica of a UI design from uidesigndaily.com.  The original can be found on the link below.
-https://uidesigndaily.com/uploads/614/day_614.png
+These are replicas of UI designs or any design in general that i find attractive and want to implement.
 
-View my implementation with only HTML and CSS below
-https://Iamhafsah.github.io/UI-design-replica
+View my implementation of the camping app with only HTML and CSS below
+https://Iamhafsah.github.io/UI-designs/campingApp
+
+View my implementation of the Flight booking app with only HTML and CSS below
+https://Iamhafsah.github.io/UI-designs/flightBookingApp
