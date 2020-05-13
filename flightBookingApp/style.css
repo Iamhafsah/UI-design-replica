@@ -1,12 +1,26 @@
+@font-face {
+    font-family: 'radikalbold';
+    src: url('radikalfont/nootype_-_radikal_bold-webfont.woff2') format('woff2'),
+         url('radikalfont/nootype_-_radikal_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'montserratbold';
+    src: url('Montserratfont/montserrat-bold-webfont.woff2') format('woff2'),
+         url('Montserratfont/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 :root{
     --bg-color: rgb(248, 246, 246);
 }
-
 body{
     box-sizing: border-box;
     padding: 0;
     background-color: var(--bg-color);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'montserratbold','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 5em auto;
 }
 img{
@@ -35,9 +49,9 @@ box-shadow: 0 2px 7px 0 rgb(211, 210, 210);
 }
 .love-text{
     font-size: 2em;
-    font-weight: 750;
-    margin: 33px auto 33px 10px;
+    margin: 33px auto 30px 10px;
     line-height: 1em;
+    font-family: radikalbold, sans-serif;
 }
 .from, .to{
     border: none ;
@@ -45,6 +59,7 @@ box-shadow: 0 2px 7px 0 rgb(211, 210, 210);
     border-radius: .9em;
     margin: 10px;
     padding: .1em;
+    color: rgb(48, 47, 47);
 }
 .from-plane, .to-plane{
     display: flex;
@@ -131,16 +146,16 @@ color: grey;
 }
 .bridge-line{
     height: 8em;
-    width: 16em;
+    width: 14.7em;
     border-top-left-radius: 13em;
     border-top-right-radius: 13em;
-    margin: -5em auto 7em -.4em;
+    margin: -5em auto 6em -.1em;
     border-left: 3px dashed white;
     border-right: 3px dashed white;
     border-top: 2px dashed black
 }
 .flight-details{
-    margin-top: -8.5em;
+    margin-top: -8em;
     margin-right: .4em;
     margin-left: .4em;
     padding-right: 1em;
@@ -154,7 +169,7 @@ color: grey;
     position: relative;
     left: .4em;
     top: .6em;
-    font-weight: 640;
+    line-height: 1.7em;
 }
 .flight-details img{
     width: 1em;
@@ -164,6 +179,7 @@ color: grey;
 .flight-details p {
     font-weight: bold;
     font-size: .8em;
+    color: rgb(48, 47, 47);
 }
 .passenger img{
     width: .8em;
@@ -180,28 +196,30 @@ color: grey;
     align-items: center;
     background-color:rgb(247, 243, 243);
     border-radius: 0 1em 1em 0;
+    height: 2.5em;
 
 }
 .roundtrip p{
     font-weight: bold;
     position: relative;
     margin-left: .3em;
+    color: rgb(48, 47, 47);
 }
 .toggle{
     background-color: black;
     height: 1.7em;
-    width: 2.3em;
+    width: 2.4em;
     border-radius: 1em 1em;
     position: relative;
-    right: -6.6em;
+    right: -5.7em;
 }
 .innertoggle{
     background-color:white;
-    height: 1.2em;
-    width: 1.2em;
+    height: 1.3em;
+    width: 1.3em;
     border-radius: 50%;
     position: relative;
-    right: -5em;
+    right: -4em;
     z-index: 3;
 }
 .first-circle, .second-circle, .third-circle{
@@ -212,7 +230,7 @@ color: grey;
 }
 #departure, #return, #class, #passenger{
     font-weight: normal;
-    font-size: .6em;
+    font-size: .53em;
     color: grey;
 }
 .departure{
@@ -235,13 +253,12 @@ color: grey;
     position: relative;
     top: -1em;
     left: .8em;
-    border-left: 2px dashed black;
+    border-left: 2px dashed rgb(124, 123, 123);
     height: 2em;
 }
 #departure{
     position: relative;
-    top: -.4em;
-    left: 1.5em;
+    left: 1.8em;
 }
 .return{
     justify-content: flex-start;
@@ -251,8 +268,8 @@ color: grey;
 }
 #return{
 position: relative;
-top: -4.6em;
-left: 3em;
+top: -5em;
+left: 3.5em;
 }
 .business{
 justify-content: flex-start;
@@ -262,25 +279,26 @@ top: -3.2em;
 }
 .third-circle{
     position: relative;
-    right: -9.4em;
+    right: -9.3em;
     height: .4em;
     width: .4em;
 }
 #class{
     position: relative;
-    top: -7.5em;
-    left: 3em;
+    top: -8.3em;
+    left: 3.7em;
 }
 .passenger{
     justify-content: flex-start;
     align-items: center;
     position: relative;
     top: -5em;
+    left: .3em;
 }
 #passenger{
     position: relative;
-    top: -10.5em;
-    left: 3em;
+    top: -11.6em;
+    left: 3.7em;
 }
 .plus-minus{
     background-color:rgb(247, 243, 243);
