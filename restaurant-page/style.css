@@ -408,6 +408,7 @@ color:grey ;
         margin-top: 2em;
         position: relative;
         left: -.5em ;
+        padding: 1.5em;
     }
     #menu-options{
         display: flex;
