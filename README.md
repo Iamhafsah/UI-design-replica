@@ -7,3 +7,6 @@ https://Iamhafsah.github.io/UI-designs/campingApp
 
 View my implementation of the Flight booking app with only HTML and CSS below
 https://Iamhafsah.github.io/UI-designs/flightBookingApp
+
+View my implementation of a restaurant page with only HTML and CSS below
+https://Iamhafsah.github.io/UI-designs/restaurant-page
