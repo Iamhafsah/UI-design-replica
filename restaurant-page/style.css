@@ -113,9 +113,13 @@ font-family: 'montserratbold';
 #restaurant-header button img{
     width: 1.4em;
     margin: .4em;
+    margin-top: -.8em;
 }
 #restaurant-header button span{
     font-weight: bold;
+}
+#restaurant-header button p{
+    margin-top: -.5em;
 }
 #menu-options{
     display: flex;
