@@ -104,12 +104,11 @@ font-family: 'montserratbold';
     height: 3em;
     width: 14em;
     font-size: .7em;
-    padding: 1.8em;
+    padding: 1.5em;
     border: none;
     border-radius: 2em;
     background-color: var(--orange-color);
     color: white;
-    margin-bottom: 2em;
 }
 #restaurant-header button img{
     width: 1.4em;
