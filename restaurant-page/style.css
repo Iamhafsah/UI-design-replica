@@ -113,20 +113,18 @@ font-family: 'montserratbold';
 #restaurant-header button img{
     width: 1.4em;
     margin: .4em;
-    margin-top: -.8em;
 }
 #restaurant-header button span{
     font-weight: bold;
 }
-#restaurant-header button p{
-    margin-top: -.5em;
-}
 #menu-options{
-    display: flex;
-    flex-wrap: wrap;
-    padding: .6em;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 70px);
+    padding: .2em;
     margin-bottom: 1.7em;
-    /* justify-content: center; */
+    margin-top: 1.5em;
 }
 #menu-options div{
     margin-right: .9em;
@@ -518,6 +516,29 @@ color:grey ;
     }
     
 }
+@media only screen and (max-width:415px){
+    #restaurant-header button img{
+        margin-top: -.8em;
+    }
+    #restaurant-header button p{
+        margin-top: -.5em;
+    }
+    #checkout .next-page{
+     width:8.2em;
+    }
+    #section-1, #section-2{
+        border-radius: 1.2em;
+    }
+    #food-images{
+        margin-left: 1em;
+    }
+    .sandwich{
+        margin-left: 1.5em;
+    }
+    #food-images .food-picture{
+        width: 12.5em;
+    }
+}
 /* hover effects */
 #restaurants button:hover{
     cursor: pointer;
@@ -527,7 +548,7 @@ color:grey ;
 
 #menu-options p:hover{
     cursor: pointer;
-    background-color: var(--bgcolor); transform: .3s
+    background-color: var(--bgcolor); transition: .3s
    
 }
 #menu-options .all p:hover{
@@ -545,313 +566,4 @@ color:grey ;
 #checkout .next-page:hover{
     cursor: pointer;
     font-size: .85em;
-}
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    ;
 }
