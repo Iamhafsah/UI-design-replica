@@ -34,7 +34,6 @@ body{
 }
 #nav-bar img{
     width: 1.7em;
-    /* display: none; */
 }
 #nav-bar p{
     font-weight: bold;
@@ -537,6 +536,11 @@ color:grey ;
     }
     #food-images .food-picture{
         width: 12.5em;
+    }
+    #nav-bar img{
+        width: 1em;
+        height: 1em;
+        margin-top: .8em;
     }
 }
 /* hover effects */
