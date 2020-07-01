@@ -129,9 +129,6 @@ font-family: 'montserratbold';
     margin-right: .9em;
     background-color: white;
 }
-.all p{
-    background-color: var(--bgcolor);
-}
 #menu-options p{
     padding: .7em;
     border-radius: 1.2em;
@@ -429,7 +426,6 @@ color:grey ;
         box-shadow: 2px 3px 4px 3px var(--grey-color);
     }
     #menu-options .all{
-        background-color: var(--bgcolor);
         border-radius: 2em;
     }
     #menu-options p{
@@ -554,9 +550,6 @@ color:grey ;
     cursor: pointer;
     background-color: var(--bgcolor); transition: .3s
    
-}
-#menu-options .all p:hover{
-    background-color: white;
 }
 #food-images .food-picture:hover{
     cursor: pointer;
