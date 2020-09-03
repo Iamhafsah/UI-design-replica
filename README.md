@@ -1,6 +1,6 @@
 # UI-designs
 
-⭐⭐⭐
+⭐⭐⭐⭐⭐
 
 These are replicas of UI designs or any design in general that i find attractive and want to implement.
 
