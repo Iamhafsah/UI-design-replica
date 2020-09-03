@@ -1,5 +1,7 @@
 # UI-designs
 
+⭐⭐⭐
+
 These are replicas of UI designs or any design in general that i find attractive and want to implement.
 
 View my implementation of the camping app with only HTML and CSS below
